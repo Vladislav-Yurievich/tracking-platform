@@ -11,7 +11,10 @@ export default defineConfig({
     watch: {
       usePolling: true,
       interval: 100
-    }
+    },
+    allowedHosts: [
+      'tracking-platform.onrender.com'
+    ]
   },
   css: {
     postcss: {
